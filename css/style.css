@@ -224,13 +224,21 @@
 }
 
 .footer-social-links-block {
-    border: 1px solid blue;
     display: flex;
     align-items: center;
 }
 
 .footer-social-link {
     margin: 9px;
+    padding: 5px;
+    color: #000000;
+    background-color: #D9D9D6;
+    border-radius: 5px;
+}
+
+.footer-social-link:hover {
+    color: #D9D9D6;
+    background-color: #000000;
 }
 
 .footer-info-right {}
