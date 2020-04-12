@@ -170,6 +170,7 @@
 }
 
 .content { /* в качестве заглушки */
+    font-family: 'ibmplexsans-light', Arial, Helvetica, sans-serif;
     margin-top: 100px;
     padding: 40px;
     background-color: #eeeeee;
