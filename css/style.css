@@ -71,7 +71,19 @@
     color: #000000;
 }
 
-.header-up-right-phone {}
+.header-up-right-email:hover {
+    text-decoration: underline;
+}
+
+.header-up-right-phone {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header-up-right-phone:hover {
+    text-decoration: underline;
+}
 
 .header-down {
     display: flex;
