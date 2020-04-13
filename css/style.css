@@ -1,25 +1,49 @@
 @font-face {
 	font-family: 'ibmplexsans-light';
 	src: local('IBM Plex Sans Light'),
-		 url('../fonts/ibmplexsans-light.eot');
-	src: url('../fonts/ibmplexsans-light.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/ibmplexsans-light.woff2') format('woff2'),
-		 url('../fonts/ibmplexsans-light.woff') format('woff'),
-		 url('../fonts/ibmplexsans-light.ttf') format('truetype');
+		 url('../fonts/IBM-Plex-Sans/ibmplexsans-light.eot');
+	src: url('../fonts/IBM-Plex-Sans/ibmplexsans-light.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/IBM-Plex-Sans/ibmplexsans-light.woff2') format('woff2'),
+		 url('../fonts/IBM-Plex-Sans/ibmplexsans-light.woff') format('woff'),
+		 url('../fonts/IBM-Plex-Sans/ibmplexsans-light.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'ibmplexsans-regular';
+    font-family: 'ibmplexsans-regular';
 	src: local('IBM Plex Sans Regular'),
-		 url('../fonts/ibmplexsans-regular.eot');
-	src: url('../fonts/ibmplexsans-regular.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/ibmplexsans-regular.woff2') format('woff2'),
-		 url('../fonts/ibmplexsans-regular.woff') format('woff'),
-		 url('../fonts/ibmplexsans-regular.ttf') format('truetype');
+		 url('../fonts/IBM-Plex-Sans/ibmplexsans-regular.eot');
+	src: url('../fonts/IBM-Plex-Sans/ibmplexsans-regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/IBM-Plex-Sans/ibmplexsans-regular.woff2') format('woff2'),
+		 url('../fonts/IBM-Plex-Sans/ibmplexsans-regular.woff') format('woff'),
+		 url('../fonts/IBM-Plex-Sans/ibmplexsans-regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
+}
+
+@font-face {
+    font-family: 'nunitosans-extralight';
+    src: local('Nunito Sans Extralight'),
+         url('../fonts/Nunito-Sans/nunitosans-extralight.eot');
+    src: url('../fonts/Nunito-Sans/nunitosans-extralight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Nunito-Sans/nunitosans-extralight.woff2') format('woff2'),
+         url('../fonts/Nunito-Sans/nunitosans-extralight.woff') format('woff'),
+         url('../fonts/Nunito-Sans/nunitosans-extralight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nunitosans-extralight';
+    src: local('Nunito Sans Semibold'),
+         url('../fonts/Nunito-Sans/nunitosans-semibold.eot');
+    src: url('../fonts/Nunito-Sans/nunitosans-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Nunito-Sans/nunitosans-semibold.woff2') format('woff2'),
+         url('../fonts/Nunito-Sans/nunitosans-semibold.woff') format('woff'),
+         url('../fonts/Nunito-Sans/nunitosans-semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .container {
@@ -181,12 +205,28 @@
     color: #000000;
 }
 
-.content { /* в качестве заглушки */
-    font-family: 'ibmplexsans-light', Arial, Helvetica, sans-serif;
+.content {
     margin-top: 100px;
-    padding: 40px;
-    background-color: #eeeeee;
+    background: url('../img/background_about.jpg') center / cover;
+    font-family: 'ibmplexsans-light', Arial, Helvetica, sans-serif;
     text-align: justify;
+}
+
+.about {
+    background:  rgba(219, 219, 219, 0.72);
+}
+
+.about-header {
+    padding-top: 70px;
+    font-family: 'ibmplexsans-light', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 95px;
+    line-height: 130px;
+}
+
+.contacts {
+    background:  rgba(219, 219, 219, 0.72);
 }
 
 .main-footer {
