@@ -1,49 +1,37 @@
 @font-face {
-    font-family: 'nunitosans-extralight';
-    src: local('Nunito Sans Extralight'),
-         url('../fonts/ns/nunitosans-extralight.eot');
-    src: url('../fonts/ns/nunitosans-extralight.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ns/nunitosans-extralight.woff2') format('woff2'),
-         url('../fonts/ns/nunitosans-extralight.woff') format('woff'),
-         url('../fonts/ns/nunitosans-extralight.ttf') format('truetype');
-         font-weight: normal;
-         font-style: normal;
-}
-
-@font-face {
-	font-family: 'nunitosans-light';
-	src: local('Nunito Sans Light'),
-		 url('../fonts/ns/nunitosans-light.eot');
-	src: url('../fonts/ns/nunitosans-light.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/ns/nunitosans-light.woff2') format('woff2'),
-		 url('../fonts/ns/nunitosans-light.woff') format('woff'),
-		 url('../fonts/ns/nunitosans-light.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-    font-family: 'nunitosans-regular';
-	src: local('Nunito Sans Regular'),
-		 url('../fonts/ns/nunitosans-regular.eot');
-	src: url('../fonts/ns/nunitosans-regular.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/ns/nunitosans-regular.woff2') format('woff2'),
-		 url('../fonts/ns/nunitosans-regular.woff') format('woff'),
-		 url('../fonts/ns/nunitosans-regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-         
-@font-face {
-    font-family: 'nunitosans-semibold';
-    src: local('Nunito Sans Semibold'),
-         url('../fonts/ns/nunitosans-semibold.eot');
-    src: url('../fonts/ns/nunitosans-semibold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ns/nunitosans-semibold.woff2') format('woff2'),
-         url('../fonts/ns/nunitosans-semibold.woff') format('woff'),
-         url('../fonts/ns/nunitosans-semibold.ttf') format('truetype');
+    font-family: 'roboto-light';
+    src: local('Roboto Light'),
+         url('../fonts/roboto/roboto-light.eot');
+    src: url('../fonts/roboto/roboto-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/roboto-light.woff2') format('woff2'),
+         url('../fonts/roboto/roboto-light.woff') format('woff'),
+         url('../fonts/roboto/roboto-light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto-regular';
+    src: local('Roboto Regular'),
+         url('../fonts/roboto/roboto-regular.eot');
+    src: url('../fonts/roboto/roboto-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/roboto-regular.woff2') format('woff2'),
+         url('../fonts/roboto/roboto-regular.woff') format('woff'),
+         url('../fonts/roboto/roboto-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'roboto-medium';
+	src: local('Roboto Medium'),
+		 url('../fonts/roboto/roboto-medium.eot');
+	src: url('../fonts/roboto/roboto-medium.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/roboto/roboto-medium.woff2') format('woff2'),
+		 url('../fonts/roboto/roboto-medium.woff') format('woff'),
+		 url('../fonts/roboto/roboto-medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 .container {
@@ -54,7 +42,7 @@
 .main-header {
     width: 1440px;
     margin: 0 auto;
-    background: #FFFFFF;
+    background: #445B94;
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -75,9 +63,10 @@
 }
 
 .header-up-left-adress {
-    font-family: 'nunitosans-regular',sans-serif;
+    font-family: 'roboto-light', sans-serif;
+    color: #ffffff;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 16px;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -91,10 +80,10 @@
     margin: 0 32px;
     display: block;
     text-decoration: none;
-    color: #000000;
-    font-family: 'nunitosans-regular', sans-serif;
+    color: #ffffff;
+    font-family: 'roboto-regular', sans-serif;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 16px;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -106,10 +95,10 @@
 .header-up-right-phone {
     display: block;
     text-decoration: none;
-    color: #000000;
-    font-family: 'nunitosans-regular', sans-serif;
+    color: #ffffff;
+    font-family: 'roboto-regular', sans-serif;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 16px;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -143,26 +132,26 @@
 }
 
 .header-down-main-menu-link {
-    font-family: 'nunitosans-extralight', sans-serif;
+    font-family: 'roboto-light', sans-serif;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 14px;
     text-align: center;
     letter-spacing: 1px;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
 }
 
 .header-down-main-menu-link:hover {
-    color: #000000;
+    color: #ffffff;
     text-decoration: underline;
 }
 
 .header-down-main-menu-link:active {
-    color: #000000;
+    color: #ffffff;
 }
 
 .header-down-main-menu-link:visited {
-    color: #000000;
+    color: #ffffff;
 }
 
 .header-down-logo {
@@ -192,26 +181,26 @@
 }
 
 .header-down-links-link {
-    font-family: 'nunitosans-extralight', sans-serif;
+    font-family: 'roboto-light', sans-serif;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 14px;
     text-align: center;
     letter-spacing: 1px;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
 }
 
 .header-down-links-link:hover {
-    color: #000000;
+    color: #ffffff;
     text-decoration: underline;
 }
 
 .header-down-links-link:active {
-    color: #000000;
+    color: #ffffff;
 }
 
 .header-down-links-link:visited {
-    color: #000000;
+    color: #ffffff;
 }
 
 .content {
